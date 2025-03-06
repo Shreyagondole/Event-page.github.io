@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<div>
+    <div class="container">
+        <div class="title">Event Registration 2025
+        </div>
+        <p class="stitle">Date: March 15, 2025 | Location: Virtual</p>
+        <form id="registrationForm" class="space-y-4">
+
+    <div class="box">
+        <div class="form">
+            <div class="name">
+                <label>Name:</label>
+                <input type="text" id="name" placeholder="   Enter your name">
+                <p class="error-message hidden" id="nameError">Name is required.</p>
+            </div>
+            <div class="name" >
+                <label>Email:</label>
+                <input type="email" id="email" placeholder="    Enter your email">
+                <p class="error-message hidden" id="emailError">Enter a valid email.</p>
+            </div>
+            <div class="name">
+                <label>Mobile:</label>
+                <input type="text" id="mobile" placeholder="   Enter your phone no">
+                <p class="error-message hidden" id="mobileError">Phone number must be digits only.</p>
+            </div>
+            <div class="name">
+                <label>Event Type:</label>
+                <select id="eventType">
+                    <option value="">Select an event type</option>
+                    <option value="Hackathon">Hackathon</option>
+                    <option value="Bootcamp">Bootcamp</option>
+                    <option value="Webinar">Webinar</option>
+                </select>
+            </div>
+            <div class="comments" >
+                <label>Comments (Optional):</label>
+                <div class="comment">
+                    <textarea placeholder="Any Comments..."></textarea>
+                </div>
+            </div>    
+            <div class="button">
+                    <button type="submit">Register</button>
+            </div>
+        </div>
+    </div>    
+        <div id="successMessage" class="hidden"></div>
+    </div>
+</form>
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+               
+                <div >
+                    <label>Name</label>
+                    <input type="text" id="name" placeholder="Enter your name">
+                    <p class="error-message hidden" id="nameError">Name is required.</p>
+                </div>
+                <div >
+                    <label>Email</label>
+                    <input type="email" id="email" placeholder="Enter your email">
+                    <p class="error-message hidden" id="emailError">Enter a valid email.</p>
+                </div>
+                <div >
+                    <label>Phone Number</label>
+                    <input type="text" id="phone" placeholder="Enter your phone number">
+                    <p class="error-message hidden" id="phoneError">Phone number must be digits only.</p>
+                </div>
+                <div >
+                    <label>Event Type</label>
+                    <select id="eventType">
+                        <option value="">Select an event type</option>
+                        <option value="workshop">Workshop</option>
+                        <option value="seminar">Seminar</option>
+                        <option value="networking">Networking Event</option>
+                    </select>
+                </div>
+                <div >
+                    <label>Comments (Optional)</label>
+                    <textarea id="comments" placeholder="Any comments..."></textarea>
+               
+                
+            </form>
+            <div id="successMessage" class="hidden">Thank you for registering!</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

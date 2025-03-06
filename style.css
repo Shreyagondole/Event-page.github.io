@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://thumbs.dreamstime.com/b/aesthetic-background-beautiful-color-combination-suitable-to-be-used-as-wallpaper-web-design-ppt-template-etc-aesthetics-241698150.jpg?w=992");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
+.stitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    margin-top: 32px;
+    border-width: 2px;
+    height: 500px;
+    width: 399px;
+    border-radius: 20px;
+    border-color: rgb(237, 167, 215);
+
+}
+.name{
+    
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.comments{
+    margin-top: 27px;
+    margin-left: 60px;
+}
+input,select{
+    border-radius: 18px;
+    height: 30px;
+    
+}
+textarea{
+    border-radius: 12px;
+    width: 250px;
+}
+.error-message{
+    color: red;
+    font-size: 0.9rem;
+}
+.button{
+    width: 140px;
+    padding: 3px 37px;
+    background-color: #3b82f6; 
+    color: white; 
+    border-radius: 9999px; 
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 32px;
+    margin-top: 35px;
+    margin-left: 30%;
+
+}
+.thank{
+    font-size: 1.5rem;
+}
+.countdown-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    background-color: #f9f9f9;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.countdown-title {
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #be64b9;
+}
+
+.event-date {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.countdown-timer {
+    font-size: 28px;
+    font-family: monospace;
+    font-weight: bold;
+    color: #a364f1;
+    padding: 10px;
+    border: 2px solid #b55fe7;
+    border-radius: 5px;
+}
